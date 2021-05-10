@@ -1,0 +1,16 @@
+spring:
+  cloud:
+    nacos:
+      config:
+        group: DEV_GROUP
+        server-addr: 127.0.0.1:8848
+        username: nacos
+        password: nacos
+        name: spring-cloud-alibaba-provider-8082
+        namespace: DEV
+        file-extension: yaml
+        enable-remote-sync-config: true
+        config-long-poll-timeout: 5000
+        config-retry-time: 2000
+        max-retry: 10
+
